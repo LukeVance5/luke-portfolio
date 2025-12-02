@@ -1,4 +1,3 @@
-import React from 'react';
 import meURL from '@/assets/images/me.jpg'
 import '@/components/css/Hero.css'
 
