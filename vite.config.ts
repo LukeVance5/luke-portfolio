@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import path from 'path';
-// https://vite.dev/config/
+import path from 'path'
+
 export default defineConfig({
-  base: "/luke-portfolio",
+  base: "/luke-portfolio/",
   plugins: [
     react({
       babel: {
@@ -13,7 +13,6 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      // Set up the exact same alias here as in tsconfig.json
       '@': path.resolve(__dirname, './src'),
     },
   },
